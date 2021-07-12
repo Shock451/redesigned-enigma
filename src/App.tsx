@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { Container, Paper } from "@material-ui/core";
 import { Theme, createStyles, makeStyles } from "@material-ui/core/styles";
-import SubscriptionForm from "./components/SubscriptionForm";
+import SubscriptionForm from "./components/SubscriptionForm/Subscription";
 
 const PLANS_URL = "https://cloud-storage-prices-moberries.herokuapp.com/prices";
 
